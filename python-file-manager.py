@@ -97,7 +97,7 @@ def main():
     input1=str(input("enetr your folder(f.e. c or d): "))
     folder.read_folder(input1)
     while True:
-        print(f"........\n1.make folder \n2.remove folder \n3.make text \n4.update text \n5.reader text \n6.remove text \n7.enter folder \n8.back")
+        print(f"........\n1.Make folder \n2.Remove folder \n3.Make text \n4.Update text \n5.Reader text \n6.Remove text \n7.Enter Folder \n8.Back")
         input2=int(input("enter your chiose: "))
         if input2 == 1:
             folder.make_folder()
@@ -119,3 +119,4 @@ def main():
     
 if __name__=="__main__":
     main()
+
